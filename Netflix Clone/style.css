@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: black;
+}
+/* Page-1 */
+.main{
+    background-image: url("req/images/bg2.jpg");
+    background-position: center center;
+    background-size: max(100vw,1000px);
+    background-repeat: no-repeat;
+    height: 95vh;
+    position: relative;
+}
+.main .box{
+    height: 95vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute;
+    top:0;
+    
+}
+nav{
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+nav img{
+    color:rgb(229, 9, 20);
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.page1-text{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family: 'Martel Sans', sans-serif;
+    gap: 23px;
+    padding: 0 30px;
+    
+}
+.page1-text> :nth-child(1){
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+.page1-text> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+.page1-text> :nth-child(3){
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.sep{
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+}
+
+.main-btn{
+    padding: 3px 8px;
+    font-weight: 400;
+    background-color: white;
+    color: white;
+    background-color: rgba(23, 23, 23, 0.2);
+    border: 1px solid rgba(240, 224, 224, 0.5);
+    border-radius: 4px;
+    cursor: pointer;
+    /* font-family: 'Poppins', sans-serif; */
+
+}
+.red-signin{
+    background-color:rgb(229, 9, 20);
+    color: white;
+    border: 1px solid rgb(229, 9, 20);
+}
+.red-getStart{
+    background-color: rgb(229, 9, 20);
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    border: 1px solid rgb(229, 9, 20);
+    font-weight: 400;
+    
+}
+.em-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.main input{
+    padding: 7px 100px 8px 14px;
+    color: white;
+    font-size: 12px;
+    /* font-weight: 900; */
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(240, 224, 224, 0.5);
+}
+
+/* Page-2 */
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    /* padding: 30px; */
+}
+.secImg{
+    position: relative;
+    
+}
+.secImg img{
+        width: 36vw;
+        position: relative;
+        z-index: 10; 
+}
+.secImg video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 455px;
+}
+section .first > div{
+    display: flex;
+    flex-direction: column;
+    padding: 0 34px;
+}
+.first-span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: bolder;
+}
+.sec-span{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/* Page-3 */
+.sec2 video{
+    position: absolute;
+    top: 50px;
+    right: 130px;
+    width: 310px;
+}
+
+/* section .first > div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+section .first > div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+section .first > div :nth-child(2) {
+    font-size: 24px;
+
+} */
+
+
+/* FAQ BOX */
+.faq{
+    background-color: black;
+    color: white;
+    padding: 34px;
+}
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+    
+}
+
+.faqbox{
+    display: flex;
+    background-color: rgb(52, 50, 50);
+    padding: 24px ;
+    width: 60vw;
+    margin: 34px auto ;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all 1s ease-out;
+}
+.faqbox svg {
+    filter: invert(1);
+}
+.faqbox:hover {
+    background-color: #776e6e;
+    color: white;
+}
+.fq-span{
+    font-size: 24px;
+    font-weight: 400;
+}
+/* FOOTER */
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 60px;
+}
+
+
+footer .ques{
+    padding: 34px 0;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* color: white; */
+}
+
+
+.footer a{
+    /* text-decoration: none; */
+    color: white;
+    font-size: 14px;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
